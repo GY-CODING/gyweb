@@ -7,14 +7,14 @@ export function Navbar() {
     const LIST_ABOUT_US     = "ABOUT US"
 
     return (
-        <div className='navbar'>
-            <div className='leftSide'>
-                <img src={logo} alt="gyLogo" draggable="false"/>
+        <div className="navbar">
+            <div className="leftSide">
+                <img src={logo} alt="gyLogo" draggable="false" />
                 <h3>{TITLE}</h3>
             </div>
-            <div className='rightSide'>
-                <h3 className='element'>{LIST_PROJECTS}</h3>
-                <h3 className='element'>{LIST_ABOUT_US}</h3>
+            <div className="rightSide">
+                <h3 className="element">{LIST_PROJECTS}</h3>
+                <h3 className="element">{LIST_ABOUT_US}</h3>
             </div>
         </div>
     )

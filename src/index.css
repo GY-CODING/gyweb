@@ -40,7 +40,7 @@
 
 @font-face {
 	font-family: 'Valorant';
-	src: url(./assets/fonts/Valorant\ Font\ 2.ttf);
+	src: url(./assets/fonts/Valorant.ttf);
 }
 
 @font-face {
@@ -66,6 +66,9 @@
 	--glass-shadow: #0000025e;
 
 	--main-text: #ffffffde;
+	--main-text-brightness: #ffffff6c;
+	
+	--selection-bg: #5908fb2f;
 
 	/* ========================= */
 
@@ -75,8 +78,10 @@
 
 	color-scheme: light dark;
 	color: var(--main-text);
+
 	background: var(--gy-bg-gradient);
 	background-size: contain;
+
 	font-synthesis: none;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
@@ -86,9 +91,18 @@
 * {
 	margin: 0;
 	padding: 0;
+
+}
+
+*::selection {
+	background-color: var(--selection-bg);
+	border-radius: 6px;
 }
 
 body {
 	width: 100vw;
 	height: 100vh;
+	
+	overflow-x: hidden;
+	overflow-y: hidden;
 }

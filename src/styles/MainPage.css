@@ -29,13 +29,18 @@
 }
 
 .form {
-    width: 90%;
-    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    background-size: 73%;
+    background-image: url("../assets/img/form.png");
+    background-repeat: no-repeat;
+    position: relativel;
+    background-position: center center;
 }
 
 .introduction {
     font-family: 'Lexend-Bold';
-    font-size: 70px;
+    font-size: 75px;
     letter-spacing: 3px;
 }
 
@@ -46,13 +51,13 @@
     color: transparent;
 }
 
-.cuadrado1 {
+.glassSquare1 {
     position: absolute;
 
-    width: 16%;
-    height: 19%;
+    width: 130px;
+    height: 130px;
     left: 50%;
-    top: 0%;
+    top: -5%;
 
     background-color: var(--glass-brightness);
     box-shadow: 0 8px 32px 0 var(--glass-shadow);
@@ -63,13 +68,13 @@
     border-radius: 10px;
 }
 
-.cuadrado2 {
+.glassSquare2 {
     position: absolute;
 
     width: 90px;
     height: 90px;
     left: 75%;
-    top: 18%;
+    top: 25%;
 
     background-color: var(--glass-brightness);
     box-shadow: 0 8px 32px 0 var(--glass-shadow);
@@ -80,13 +85,13 @@
     border-radius: 10px;
 }
 
-.cuadrado3 {
+.glassSquare3 {
     position: absolute;
 
     width: 110px;
     height: 110px;
-    left: 33%;
-    top: 77%;
+    left: 25%;
+    top:75%;
 
     background-color: var(--glass-brightness);
     box-shadow: 0 8px 32px 0 var(--glass-shadow);
@@ -97,7 +102,7 @@
     border-radius: 10px;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 890px) {
     .mainPage {
         flex-direction: column;
         justify-content: center;
@@ -109,5 +114,32 @@
     .mainPage img {
         position: absolute;
         z-index: -1;
+    }
+
+    .form-image {
+        position: absolute;
+        z-index: -2;
+    }
+    
+    .introduction {
+        font-size: 50px;
+        filter: drop-shadow(0px 0px 10px #000000);
+    }
+}
+@media screen and (max-width: 1241px) {
+    .introduction{
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 1030px) {
+    .introduction{
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .glassSquare1, .glassSquare2, .glassSquare3 {
+        display: none;
     }
 }

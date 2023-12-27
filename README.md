@@ -1,11 +1,11 @@
-# GY Web Page
+# GYCODING website
 
 ![version](https://img.shields.io/badge/version-0.0.1-magenta?style=for-the-badge)
-[![developed](https://img.shields.io/badge/developed-GYCoding-purple?style=for-the-badge)](https://github.com/GY-CODING)
-[![webpage](https://img.shields.io/badge/Web-gycoding-magenta?style=for-the-badge)](https://gy-coding.github.io/gycoding/)
+[![developer](https://img.shields.io/badge/developed-GYCoding-purple?style=for-the-badge)](https://github.com/GY-CODING)
+[![website](https://img.shields.io/badge/Web-gycoding-magenta?style=for-the-badge)](https://gycoding.com)
 
-This is the start of the [GY Coding](https://x.com/GYCODING) official web page project using **Vite** and **ReactJS**.
+This is the **[GY Coding](https://x.com/GYCODING)** official website project.
 
 <br>
 
-<pre align="center">GY Coding 2023</pre>
+<pre align="center"><b>GY Coding 2023</b></pre>
