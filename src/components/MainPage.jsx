@@ -22,16 +22,18 @@ const Parallax = () => {
 };
 
 export function MainPage() {
+    const MSG_WELCOME = `WELCOME TO <br /> <span>GY</span>CODING`
+    
     return (
         <div className='mainPage'>
             <Parallax />
             <div className="form-image">
-                <img className='form parallax' speed="2" src={form} alt="introForm" />
+                <img className='form parallax' speed="2" src={form} alt="introForm" draggable="false" />
                 <div className="cuadrado1 parallax" speed="1"></div>
                 <div className="cuadrado2 parallax" speed="1"></div>
                 <div className="cuadrado3 parallax" speed="1"></div>
             </div>
-            <h1 className="introduction parallax" speed="0">WELCOME TO <br /> <span>GY</span>CODING</h1>
+            <h1 className="introduction parallax" speed="0" dangerouslySetInnerHTML={{__html: MSG_WELCOME}} />
         </div>
     );
 }

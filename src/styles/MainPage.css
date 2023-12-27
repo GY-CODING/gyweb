@@ -36,55 +36,65 @@
 .introduction {
     font-family: 'Lexend-Bold';
     font-size: 70px;
+    letter-spacing: 3px;
 }
 
 .introduction span {
     background: var(--gy-gradient);
+    
     -webkit-background-clip: text;
     color: transparent;
 }
 
 .cuadrado1 {
-    width:16%;
-    height: 19%;
-    background-color: var(--glass-brightness);
     position: absolute;
+
+    width: 16%;
+    height: 19%;
     left: 50%;
     top: 0%;
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 2, 0.37);
+
+    background-color: var(--glass-brightness);
+    box-shadow: 0 8px 32px 0 var(--glass-shadow);
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(4px);
-    border-radius: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.094);
 
+    border: 1px solid var(--glass-border);
+    border-radius: 10px;
 }
 
 .cuadrado2 {
+    position: absolute;
+
     width: 90px;
     height: 90px;
-    background-color: var(--glass-brightness);
-    position: absolute;
     left: 75%;
     top: 18%;
-    box-shadow: 0 8px 32px 0 #0000025e;
+
+    background-color: var(--glass-brightness);
+    box-shadow: 0 8px 32px 0 var(--glass-shadow);
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(4px);
+
+    border: 1px solid var(--glass-border);
     border-radius: 10px;
-    border: 1px solid #ffffff18;
 }
 
 .cuadrado3 {
+    position: absolute;
+
     width: 110px;
     height: 110px;
-    background-color: var(--glass-brightness);
-    position: absolute;
     left: 33%;
     top: 77%;
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 2, 0.37);
+
+    background-color: var(--glass-brightness);
+    box-shadow: 0 8px 32px 0 var(--glass-shadow);
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(4px);
+
+    border: 1px solid var(--glass-border);
     border-radius: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.159);
 }
 
 @media screen and (max-width: 650px) {

@@ -56,14 +56,17 @@
 :root {
 	--gy-purple: #5808fb;
 	--gy-magenta: #9929ea;
-	--gy-purple-dark: #18011b;
-	--gy-magenta-dark: #1b0118;
+	--gy-purple-dark: #0c000e;
+	--gy-magenta-dark: #0d011b;
 	--gy-gradient: linear-gradient(45deg, var(--gy-purple), var(--gy-magenta));
-	--gy-bg-gradient: linear-gradient(180deg, var(--gy-purple-dark), var(--gy-magenta-dark));
+	--gy-bg-gradient: linear-gradient(0deg, var(--gy-purple-dark), var(--gy-magenta-dark));
 
 	--glass-brightness: #ffffff0d;
 	--glass-border: #ffffff18;
 	--glass-shadow: #0000025e;
+
+	--main-text: #ffffffde;
+
 	/* ========================= */
 
 	font-family: 'Lexend-Medium', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -71,7 +74,7 @@
 	font-weight: 400;
 
 	color-scheme: light dark;
-	color: #ffffffde;
+	color: var(--main-text);
 	background: var(--gy-bg-gradient);
 	background-size: contain;
 	font-synthesis: none;

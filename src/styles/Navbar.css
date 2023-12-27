@@ -11,6 +11,8 @@
     margin: 0;
 
     padding: 50px;
+
+    user-select: none;
 }
 
 .leftSide {
@@ -21,6 +23,7 @@
 }
 
 .leftSide h3 {
+    height: 100%;
     font-size: 26px;
     font-family: 'Valorant';
 }
