@@ -1,0 +1,103 @@
+.mainPage {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    width: 100%;
+    height: 75vh;
+
+    gap: 4rem;
+}
+
+.form-image {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    width: 50%;
+    height: 100%;
+
+    position: relative;
+}
+
+.form {
+    width: 90%;
+    object-fit: contain;
+}
+
+.introduction {
+    font-family: 'Lexend-Bold';
+    font-size: 70px;
+}
+
+.introduction span {
+    background: var(--gy-gradient);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.cuadrado1 {
+    width:16%;
+    height: 19%;
+    background-color: var(--glass-brightness);
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 2, 0.37);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.094);
+
+}
+
+.cuadrado2 {
+    width: 90px;
+    height: 90px;
+    background-color: var(--glass-brightness);
+    position: absolute;
+    left: 75%;
+    top: 18%;
+    box-shadow: 0 8px 32px 0 #0000025e;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid #ffffff18;
+}
+
+.cuadrado3 {
+    width: 110px;
+    height: 110px;
+    background-color: var(--glass-brightness);
+    position: absolute;
+    left: 33%;
+    top: 77%;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 2, 0.37);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.159);
+}
+
+@media screen and (max-width: 650px) {
+    .mainPage {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 75vh;
+        text-align: center;
+    }
+
+    .mainPage img {
+        position: absolute;
+        z-index: -1;
+    }
+}

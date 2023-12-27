@@ -1,0 +1,91 @@
+@font-face {
+	font-family: 'Lexend-Black';
+	src: url(./assets/fonts/Lexend-Black.ttf);
+}
+
+@font-face {
+	font-family: 'Lexend-Bold';
+	src: url(./assets/fonts/Lexend-Bold.ttf);
+}
+
+@font-face {
+	font-family: 'Lexend-ExtraBold';
+	src: url(./assets/fonts/Lexend-ExtraBold.ttf);
+}
+
+@font-face {
+	font-family: 'Lexend-ExtraLight';
+	src: url(./assets/fonts/Lexend-ExtraLight.ttf);
+}
+
+@font-face {
+	font-family: 'Lexend-Light';
+	src: url(./assets/fonts/Lexend-Light.ttf);
+}
+
+@font-face {
+	font-family: 'Lexend-Medium';
+	src: url(./assets/fonts/Lexend-Medium.ttf);
+}
+
+@font-face {
+	font-family: 'Lexend-Regular';
+	src: url(./assets/fonts/Lexend-SemiBold.ttf);
+}
+
+@font-face {
+	font-family: 'Lexend-Thin';
+	src: url(./assets/fonts/Lexend-Thin.ttf);
+}
+
+@font-face {
+	font-family: 'Valorant';
+	src: url(./assets/fonts/Valorant\ Font\ 2.ttf);
+}
+
+@font-face {
+	font-family: 'ArcaMajora3-Bold';
+	src: url(./assets/fonts/ArcaMajora3-Bold.otf);
+}
+
+@font-face {
+	font-family: 'ArcaMajora3-Heavy';
+	src: url(./assets/fonts/ArcaMajora3-Heavy.otf);
+}
+
+:root {
+	--gy-purple: #5808fb;
+	--gy-magenta: #9929ea;
+	--gy-purple-dark: #18011b;
+	--gy-magenta-dark: #1b0118;
+	--gy-gradient: linear-gradient(45deg, var(--gy-purple), var(--gy-magenta));
+	--gy-bg-gradient: linear-gradient(180deg, var(--gy-purple-dark), var(--gy-magenta-dark));
+
+	--glass-brightness: #ffffff0d;
+	--glass-border: #ffffff18;
+	--glass-shadow: #0000025e;
+	/* ========================= */
+
+	font-family: 'Lexend-Medium', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+	line-height: 1;
+	font-weight: 400;
+
+	color-scheme: light dark;
+	color: #ffffffde;
+	background: var(--gy-bg-gradient);
+	background-size: contain;
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 100vw;
+	height: 100vh;
+}
