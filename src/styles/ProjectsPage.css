@@ -16,7 +16,7 @@
 
 .projectsTitle {
   width: 100%;
-  height: 20%;
+  height: 10%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -53,19 +53,15 @@
 
 [glow] .fotgCard {
   border: 2px solid var(--glow-fotg-border);
-  filter: brightness(80%);
 }
 [glow] .mapsCard {
   border: 2px solid var(--glow-maps-border);
-  filter: brightness(80%);
 }
 [glow] .charactersCard {
   border: 2px solid var(--glow-characters-border);
-  filter: brightness(80%);
 }
 [glow] .isaacCard {
   border: 2px solid var(--glow-isaac-border);
-  filter: brightness(80%);
 }
 
 .projectCard {
@@ -82,7 +78,7 @@
   position: absolute;
   width: 100px;
   height: 100px;
-  filter: drop-shadow(0px 0px 10px #000);
+  filter: drop-shadow(0px 0px 10px #000) drop-shadow(0px 0px 10px #00000081);
   pointer-events: none;
 }
 
@@ -106,4 +102,25 @@
 
 .projectCard:hover {
   cursor: pointer;
+}
+
+
+@media screen and (max-width: 1241px) {
+  .projectsList {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0px, 1fr));
+  }
+  .projectsList{
+    width: 55%;
+  }
+
+  .projectBG {
+    width: 100%;
+    object-fit: cover; /* Ajusta la imagen para cubrir completamente el contenedor en el media query */
+  }
+
+  .projectCard{
+    width: 100%;
+    height: 200px;
+  }
 }

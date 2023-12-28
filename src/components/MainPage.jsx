@@ -1,4 +1,6 @@
 import React, { useEffect } from 'react';
+import { GlowCapture, Glow } from "@codaworks/react-glow"
+
 import '../styles/MainPage.css';
 import form from '../assets/img/form.png';
 
@@ -25,7 +27,7 @@ export function MainPage() {
     const MSG_WELCOME = `WELCOME TO <br /> <span>GY</span>CODING`
 
     return (
-        <div className="mainPage">
+        <div id="main" className="mainPage">
             <Parallax />
             <div className="form-image">
                 <div className="form parallax" speed="2" src={form} alt="introForm" draggable="false" >

@@ -9,12 +9,12 @@
     width: 100%;
     height: 5%;
     
-    padding-top: 1%;
+    padding-top: 2%;
 
     user-select: none;
     /* backdrop-filter: blur(5px); */
     z-index: 2;
-    position: sticky;
+    position: fixed;
     top: 0;
 }
 
@@ -26,12 +26,12 @@
     margin-left: 3%;
 }
 
-.leftSide h3 {
+.navbarTitle {
     font-size: 26px;
     font-family: 'Valorant';
 }
 
-.leftSide img {
+.navbarLogo {
     width: 55px;
 }
 
@@ -63,7 +63,7 @@
         display: none;
     }
 
-    .leftSide h3 {
+    .navbarTitle {
         display: none;
     }
 

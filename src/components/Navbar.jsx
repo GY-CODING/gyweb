@@ -9,12 +9,12 @@ export function Navbar() {
     return (
         <div className="navbar">
             <div className="leftSide">
-                <img src={logo} alt="gyLogo" draggable="false" />
-                <h3>{TITLE}</h3>
+                <a href="#main"><img className="navbarLogo" src={logo} alt="gyLogo" draggable="false" /></a>
+                <a href="#main" className="navbarTitle">{TITLE}</a>
             </div>
             <div className="rightSide">
-                <h3 className="element">{LIST_PROJECTS}</h3>
-                <h3 className="element">{LIST_ABOUT_US}</h3>
+                <a href="#projects" className="element">{LIST_PROJECTS}</a>
+                <a href="#aboutUs" className="element">{LIST_ABOUT_US}</a>
             </div>
         </div>
     )

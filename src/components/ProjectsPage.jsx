@@ -13,7 +13,7 @@ import '../styles/ProjectsPage.css'
 
 export function ProjectsPage() {
     return (
-        <GlowCapture className="projects">
+        <GlowCapture id="projects" className="projects">
             <header className="projectsTitle">
                 <h1>PROJECTS</h1>
             </header>

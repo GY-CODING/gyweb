@@ -68,6 +68,8 @@
 	--glow-maps-border: #ea00e2;
 	--glow-characters-border: #00e6e2;
 	--glow-isaac-border: #cdcdcd;
+	--glow-glass-border: #d1d1d15e;
+
 
 	--glass-brightness: #ffffff0d;
 	--glass-border: #ffffff18;
@@ -107,6 +109,10 @@
 	border-radius: 6px;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	width: 100vw;
 	height: 200vh;
@@ -116,4 +122,11 @@ body {
 	justify-content: flex-start;
 	
 	overflow-x: hidden;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+	font-family: inherit;
+	font-weight: inherit;
 }
