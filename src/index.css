@@ -61,6 +61,14 @@
 	--gy-gradient: linear-gradient(45deg, var(--gy-purple), var(--gy-magenta));
 	--gy-bg-gradient: linear-gradient(0deg, var(--gy-purple-dark), var(--gy-magenta-dark));
 
+	--projects-card-bg: #121212;
+	--projects-card-border: transparent;
+
+	--glow-fotg-border: #e49709;
+	--glow-maps-border: #ea00e2;
+	--glow-characters-border: #00e6e2;
+	--glow-isaac-border: #cdcdcd;
+
 	--glass-brightness: #ffffff0d;
 	--glass-border: #ffffff18;
 	--glass-shadow: #0000025e;
@@ -101,8 +109,11 @@
 
 body {
 	width: 100vw;
-	height: 100vh;
+	height: 200vh;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
 	
 	overflow-x: hidden;
-	overflow-y: hidden;
 }
