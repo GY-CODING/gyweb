@@ -1,0 +1,13 @@
+.tilt-card {
+    width: 200px;
+    height: 300px;
+    background-color: black;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px;
+  }
+  
+  .card-content {
+    padding: 20px;
+  }
+  

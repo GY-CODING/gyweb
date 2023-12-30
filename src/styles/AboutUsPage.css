@@ -1,0 +1,38 @@
+.aboutUsPage {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+  
+    gap: 40px;
+  
+    background-color: transparent;
+}
+  
+.aboutUsTitle {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.gyMembers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+[glow] .gfiguerasCard {
+    border: 2px solid var(--glow-gfigueras-border);
+}
+[glow] .toxycCard {
+  border: 2px solid var(--glow-toxyc-border);
+}
+

@@ -5,7 +5,7 @@ export function Navbar() {
     const TITLE             = "GyCODING"
     const LIST_PROJECTS     = "PROJECTS"
     const LIST_ABOUT_US     = "ABOUT US"
-
+    
     return (
         <div className="navbar">
             <div className="leftSide">

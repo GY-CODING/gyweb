@@ -8,7 +8,6 @@ import fotg_logo from "../assets/img/fotg_logo.webp"
 import maps_logo from "../assets/img/gfigueras_logo.png"
 import characters_logo from "../assets/img/toxyc_logo.png"
 
-
 import '../styles/ProjectsPage.css'
 
 export function ProjectsPage() {

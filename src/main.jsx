@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client'
 import { Navbar } from './components/Navbar'
 import { MainPage } from './components/MainPage'
 import { ProjectsPage } from './components/ProjectsPage'
+import { AboutUsPage } from './components/AboutUsPage'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -10,5 +11,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Navbar />
     <MainPage />
     <ProjectsPage />
+    <AboutUsPage />
   </React.StrictMode>,
 )
