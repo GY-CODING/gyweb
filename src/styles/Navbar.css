@@ -39,13 +39,12 @@
     display: flex;
     align-items: center;
     gap: 2rem;
-    margin-right:3%;
-
+    margin-right: 3%;
 }
 
 .element {
-    transition: .5s;
-    padding-bottom: 10px;
+    height: 200%;
+    padding-bottom: 7px;
     border-bottom: 2px solid transparent;
 }
 
@@ -55,7 +54,6 @@
     filter: drop-shadow(0px 0px 10px var(--main-text-brightness));
     transition: .5s;
     border-bottom: 2px solid #ffffff8e;
-
 }
 
 @media screen and (max-width: 650px) {

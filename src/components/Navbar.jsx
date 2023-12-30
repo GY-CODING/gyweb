@@ -1,4 +1,5 @@
 import '../styles/Navbar.css'
+import { GlowCapture, Glow } from "@codaworks/react-glow"
 import logo from '../assets/img/logo.png'
 
 export function Navbar() {
@@ -13,8 +14,8 @@ export function Navbar() {
                 <a href="#main" className="navbarTitle">{TITLE}</a>
             </div>
             <div className="rightSide">
-                <a href="#projects" className="element">{LIST_PROJECTS}</a>
-                <a href="#aboutUs" className="element">{LIST_ABOUT_US}</a>
+                <a href="#projects" className="element projectsElement">{LIST_PROJECTS}</a>
+                <a href="#aboutUs" className="element aboutUsElement">{LIST_ABOUT_US}</a>
             </div>
         </div>
     )

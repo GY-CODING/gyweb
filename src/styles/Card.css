@@ -1,13 +1,32 @@
-.tilt-card {
-    width: 200px;
-    height: 300px;
-    background-color: black;
-    border-radius: 10px;
-    overflow: hidden;
-    margin: 20px;
-  }
-  
-  .card-content {
-    padding: 20px;
-  }
-  
+.tiltCard {
+  width: 30%;
+  height: 80%;
+  box-shadow: 0 8px 32px 0 var(--card-shadow);
+  backdrop-filter: blur(100px);
+  border-radius: 10px;
+  border: 1px solid var(--card-border);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+
+  padding: 50px;
+  gap: 30px;
+}
+
+.cardTitle {
+	font-size: 30px;
+}
+
+.cardDesc {
+	font-size: 13px;
+}
