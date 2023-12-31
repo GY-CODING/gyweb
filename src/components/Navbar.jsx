@@ -1,6 +1,5 @@
 import '../styles/Navbar.css'
-import { GlowCapture, Glow } from "@codaworks/react-glow"
-import logo from '../assets/img/logo.png'
+import logo from '../assets/img/logos/gy-logo.webp'
 
 export function Navbar() {
     const TITLE             = "GyCODING"

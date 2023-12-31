@@ -1,76 +1,104 @@
 .aboutUsPage {
-  height: 100vh;
-  width: 100vw;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
+	position: relative;
+	
+	height: 100vh;
+	width: 100vw;
 
-  justify-content: flex-start;
-  align-items: center;
-  align-content: center;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
 
-  gap: 40px;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: center;
 
-  background-color: transparent;
-  position: relative;
+	gap: 40px;
+
+	background-color: transparent;
 }
 
 .aboutUsTitle {
-  width: 100%;
-  height: 10%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 25px;
+	width: 100%;
+	height: 10%;
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+
+	font-size: 25px;
 }
 
 .gyMembers {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 5rem;
-  width: 100%;
-  height: 100%;
+	width: 100%;
+	height: 100%;
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+
+	gap: 5rem;
+	
 }
 
 .ball {
- 
-  border-radius: 50%;
-  animation: rotate 3s infinite linear;
-  z-index: -3;
-  position: absolute;
+	border-radius: 50%;
+	animation: rotate 3s infinite linear;
+	z-index: -3;
+	position: absolute;
 }
 
-.ball1{
-    height: 350px;
-    background: radial-gradient(circle at 30% 40%, #3498db, #236fa3 70%, #1e528e);
-
-    width: 350px;
-    top: 10%;
-    left: 10%;
-}
-.ball2{
-    width: 300px;
-    height: 300px;
-    background: radial-gradient(circle at 30% 40%, #db34d5, #a3238b 70%, #5e1654);
-    top: 55%;
-    left: 28%;
-}
-
-.ball3{
-    width: 300px;
-    height: 300px;
-    top:15%;
-    left: 70%;
-    background: radial-gradient(circle at 30% 40%, #34d3db, #238ba3 70%, #1e8c8e);
+.triangle {
 
 }
 
-.ball4{
-    width: 200px;
-    height: 200px;
-    top:75%;
-    left: 47%;
-    background: radial-gradient(circle at 30% 40%, #34d3db, #238ba3 70%, #1e8c8e);
+.ball1 {
+	width: 350px;
+	height: 350px;
+
+	top: 10%;
+	left: 10%;
+
+	background: radial-gradient(circle at 30% 40%, #3498db, #236fa3 70%, #1e528e);
+}
+
+.ball2 {
+	width: 300px;
+	height: 300px;
+
+	top: 55%;
+	left: 28%;
+
+	background: radial-gradient(circle at 30% 40%, #db34d5, #a3238b 70%, #5e1654);
+}
+
+.ball3 {
+	width: 300px;
+	height: 300px;
+
+	top: 15%;
+	left: 70%;
+
+	background: radial-gradient(circle at 30% 40%, #34d3db, #238ba3 70%, #1e8c8e);
+}
+
+.ball4 {
+	width: 200px;
+	height: 200px;
+
+	top: 75%;
+	left: 47%;
+
+	background: radial-gradient(circle at 30% 40%, #34d3db, #238ba3 70%, #1e8c8e);
+}
+
+.triangle1 {
 
 }

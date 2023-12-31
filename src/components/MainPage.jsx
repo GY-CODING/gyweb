@@ -1,8 +1,7 @@
 import React, { useEffect } from 'react';
-import { GlowCapture, Glow } from "@codaworks/react-glow"
 
 import '../styles/MainPage.css';
-import form from '../assets/img/form.png';
+import form from "../assets/img/form.webp";
 
 const Parallax = () => {
     const handleMouseMove = (e) => {

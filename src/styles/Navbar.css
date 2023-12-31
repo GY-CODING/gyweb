@@ -1,4 +1,9 @@
 .navbar {
+    position: fixed;
+
+    width: 100%;
+    height: 5%;
+
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -6,24 +11,29 @@
     justify-content: space-between;
     align-items: center;
     align-content: center;
-    width: 100%;
-    height: 5%;
-    
+
+    top: 0;
     padding-top: 2%;
 
-    user-select: none;
-    /* backdrop-filter: blur(5px); */
     z-index: 2;
-    position: fixed;
-    top: 0;
+
+    user-select: none;
 }
 
 .leftSide {
-    display: flex;
-    align-items: center;
-    gap: 1.3rem;
     height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
     margin-left: 3%;
+
+    gap: 1.3rem;
 }
 
 .navbarTitle {
@@ -37,23 +47,32 @@
 
 .rightSide {
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    justify-content: center;
     align-items: center;
-    gap: 2rem;
+    align-content: center;
+
     margin-right: 3%;
+    
+    gap: 2rem;
 }
 
 .element {
     height: 200%;
     padding-bottom: 7px;
     border-bottom: 2px solid transparent;
+
+    transition: .5s;
 }
 
 .element:hover {
     cursor: pointer;
+    transition: .5s;
     
     filter: drop-shadow(0px 0px 10px var(--main-text-brightness));
-    transition: .5s;
-    border-bottom: 2px solid #ffffff8e;
+    border-bottom: 2px solid #ffffff;
 }
 
 @media screen and (max-width: 650px) {

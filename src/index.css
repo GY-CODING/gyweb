@@ -61,8 +61,11 @@
 	--gy-gradient: linear-gradient(45deg, var(--gy-purple), var(--gy-magenta));
 	--gy-bg-gradient: linear-gradient(0deg, var(--gy-purple-dark), var(--gy-magenta-dark));
 
+	--introduction-shadow: #0000008e;
+
 	--projects-card-bg: #121212;
 	--projects-card-border: transparent;
+	--projects-logo-shadow: #00000081;
 
 	--glow-gfigueras-border: #a609e4;
 	--glow-toxyc-border: #e49709;
@@ -80,6 +83,7 @@
 	--card-bg: #ffffff0d;
 	--card-border: #ffffff42;
 	--card-shadow: #0000025e;
+	--card-media-brightness: #ffffff42;
 
 	--main-text: #ffffffde;
 	--main-text-brightness: #ffffff6c;

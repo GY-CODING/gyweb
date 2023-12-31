@@ -1,126 +1,145 @@
 .projects {
-  height: 100vh;
-  width: 100vw;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
+	height: 100vh;
+	width: 100vw;
 
-  justify-content: flex-start;
-  align-items: center;
-  align-content: center;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
 
-  gap: 40px;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: center;
 
-  background-color: transparent;
+	gap: 40px;
+
+	background-color: transparent;
 }
 
 .projectsTitle {
-  width: 100%;
-  height: 10%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 25px;
+	width: 100%;
+	height: 10%;
+	
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+
+	font-size: 25px;
 }
 
 .projectsList {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(250px, 1fr));
-  grid-gap: 1.8rem;
+	display: grid;
+	grid-template-columns: repeat(4, minmax(250px, 1fr));
+	grid-gap: 1.8rem;
 }
 
 .projectCard {
-  height: 430px;
-  width: 260px;
+	height: 430px;
+	width: 260px;
 
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
 
-  justify-content: center;
-  align-items: center;
-  align-content: center;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
 
-  text-align: center;
+	text-align: center;
 
-  background-color: var(--projects-card-bg);
+	background-color: var(--projects-card-bg);
 
-  border: 2px solid var(--projects-card-border);
-  border-radius: 10px;
+	border: 2px solid var(--projects-card-border);
+	border-radius: 10px;
 
-  user-select: none;
+	user-select: none;
 }
 
 [glow] .fotgCard {
-  border: 2px solid var(--glow-fotg-border);
+	border: 2px solid var(--glow-fotg-border);
 }
+
 [glow] .mapsCard {
-  border: 2px solid var(--glow-maps-border);
+	border: 2px solid var(--glow-maps-border);
 }
+
 [glow] .charactersCard {
-  border: 2px solid var(--glow-characters-border);
+	border: 2px solid var(--glow-characters-border);
 }
+
 [glow] .isaacCard {
-  border: 2px solid var(--glow-isaac-border);
+	border: 2px solid var(--glow-isaac-border);
 }
 
 .projectCard {
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+
+	overflow: hidden;
 }
 
 .projectLogo {
-  opacity: 0;
-  transition: 0.5s;
-  z-index: 2;
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  filter: drop-shadow(0px 0px 10px #000) drop-shadow(0px 0px 10px #00000081);
-  pointer-events: none;
+	position: absolute;
+	
+	width: 100px;
+	height: 100px;
+	
+	opacity: 0%;
+	filter: drop-shadow(0px 0px 10px #000000) drop-shadow(0px 0px 10px var(--projects-logo-shadow));
+	
+	z-index: 2;
+	pointer-events: none;
+
+	transition: 0.5s;
 }
 
 .projectBG {
-  height: 100%;
-  filter: brightness(100%);
-  pointer-events: none;
-  transition: .5s;
-
+	height: 100%;
+	filter: brightness(100%);
+	pointer-events: none;
+	transition: .5s;
 }
 
 .projectCard:hover .projectLogo {
-  opacity: 1;
-  transition: 0.5;
+	opacity: 1;
+	transition: 0.5;
 }
 
-.projectCard:hover .projectBG{
-  filter: brightness(40%);
-  transition: .5s;
+.projectCard:hover .projectBG {
+	filter: brightness(40%);
+	transition: .5s;
 }
 
 .projectCard:hover {
-  cursor: pointer;
+	cursor: pointer;
 }
 
 
 @media screen and (max-width: 1241px) {
-  .projectsList {
-    display: grid;
-    grid-template-columns: repeat(1, minmax(0px, 1fr));
-  }
-  .projectsList{
-    width: 55%;
-  }
+	.projectsList {
+		display: grid;
+		grid-template-columns: repeat(1, minmax(0px, 1fr));
+	}
 
-  .projectBG {
-    width: 100%;
-    object-fit: cover; /* Ajusta la imagen para cubrir completamente el contenedor en el media query */
-  }
+	.projectsList {
+		width: 55%;
+	}
 
-  .projectCard{
-    width: 100%;
-    height: 200px;
-  }
+	.projectBG {
+		width: 100%;
+		object-fit: cover;
+	}
+
+	.projectCard {
+		width: 100%;
+		height: 200px;
+	}
 }

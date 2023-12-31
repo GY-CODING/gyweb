@@ -1,20 +1,22 @@
 import { GlowCapture, Glow } from "@codaworks/react-glow"
 
-import fotg_card from "../assets/img/fotg_card_bg.jpg"
-import maps_card from "../assets/img/maps_card_bg.jpg"
-import characters_card from "../assets/img/characters_card_bg.jpg"
+import fotg_card from "../assets/img/projects-bg/fotg_card_bg.webp"
+import maps_card from "../assets/img/projects-bg/maps_card_bg.webp"
+import characters_card from "../assets/img/projects-bg/characters_card_bg.webp"
 
-import fotg_logo from "../assets/img/fotg_logo.webp"
-import maps_logo from "../assets/img/gfigueras_logo.png"
-import characters_logo from "../assets/img/toxyc_logo.png"
+import fotg_logo from "../assets/img/logos/fotg_logo.webp"
+import maps_logo from "../assets/img/logos/gfigueras_logo.webp"
+import characters_logo from "../assets/img/logos/toxyc_logo.webp"
 
 import '../styles/ProjectsPage.css'
 
 export function ProjectsPage() {
+    const TITLE = "PROJECTS";
+
     return (
         <GlowCapture id="projects" className="projects">
             <header className="projectsTitle">
-                <h1>PROJECTS</h1>
+                <h1>{TITLE}</h1>
             </header>
 
             <div className="projectsList">

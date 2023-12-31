@@ -4,7 +4,7 @@
 [![developer](https://img.shields.io/badge/developed-GYCoding-purple?style=for-the-badge)](https://github.com/GY-CODING)
 [![website](https://img.shields.io/badge/Web-gycoding-magenta?style=for-the-badge)](https://gycoding.com)
 
-This is the **[GY Coding](https://x.com/GYCODING)** official website project.
+This is the **[GY Coding](https://gycoding.com)** official website project.
 
 <br>
 
