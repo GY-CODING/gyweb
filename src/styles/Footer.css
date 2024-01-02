@@ -56,6 +56,11 @@
 	transition: .5s;
 }
 
+.mail {
+	height: 47px;
+	margin: -5px;
+}
+
 .footerMediaLogo:hover {
 	cursor: pointer;
 	transition: .5s;

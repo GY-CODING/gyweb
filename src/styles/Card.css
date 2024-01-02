@@ -60,7 +60,7 @@
 	align-items: flex-start;
 	align-content: flex-start;
 	
-	margin-top: 20px;
+	margin-top: 4%;
 
 	font-size: 13px;
 	text-overflow: ellipsis;
@@ -120,7 +120,28 @@
 		font-size: 20px;
 	}
 
+	.cardDesc {
+		font-size: 8px;
+		margin-top: 5px;
+	}
+
 	.mediaLogo {
 		height: 20px;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.tiltCard {
+		height: 250px;
+		padding-top: 30px;
+	}
+
+	.cardDesc {
+		display: none;
+	}
+
+	.mediaLogo {
+		height: 40px;
+		margin-top: 100%;
 	}
 }
