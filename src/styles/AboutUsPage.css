@@ -12,10 +12,19 @@
 	align-items: center;
 	align-content: center;
 
-	gap: 40px;
+	padding-top: 60px;
 
-	background-color: transparent;
+	background: var(--gy-bg-gradient-reverse);
+
+	view-timeline-name: --card;
+	view-timeline-axis: block;
+
+	animation-timeline: --card;
+	animation-name: show;
+
+	animation-range: entry 0% cover 50% ;
 }
+
 
 .aboutUsTitle {
 	width: 100%;
@@ -29,12 +38,14 @@
 	align-items: center;
 	align-content: center;
 
+	margin-bottom: 0px;
+
 	font-size: 25px;
 }
 
 .gyMembers {
 	width: 100%;
-	height: 100%;
+	height: 85%;
 
 	display: flex;
 	flex-direction: row;
@@ -45,18 +56,13 @@
 	align-content: center;
 
 	gap: 5rem;
-	
 }
 
 .ball {
 	border-radius: 50%;
 	animation: rotate 3s infinite linear;
-	z-index: -3;
+	z-index: 0;
 	position: absolute;
-}
-
-.triangle {
-
 }
 
 .ball1 {
@@ -66,7 +72,8 @@
 	top: 10%;
 	left: 10%;
 
-	background: radial-gradient(circle at 30% 40%, #3498db, #236fa3 70%, #1e528e);
+	background: var(--card-gfigueras-ball);
+  box-shadow: inset 30px 20px 100px 50px rgba(0, 0, 0, 0.228);
 }
 
 .ball2 {
@@ -76,7 +83,7 @@
 	top: 55%;
 	left: 28%;
 
-	background: radial-gradient(circle at 30% 40%, #db34d5, #a3238b 70%, #5e1654);
+	background: var(--card-gfigueras-ball);
 }
 
 .ball3 {
@@ -86,7 +93,7 @@
 	top: 15%;
 	left: 70%;
 
-	background: radial-gradient(circle at 30% 40%, #34d3db, #238ba3 70%, #1e8c8e);
+	background: var(--card-toxyc-ball);
 }
 
 .ball4 {
@@ -94,11 +101,52 @@
 	height: 200px;
 
 	top: 75%;
-	left: 47%;
+	left: 50%;
 
-	background: radial-gradient(circle at 30% 40%, #34d3db, #238ba3 70%, #1e8c8e);
+	background: var(--card-toxyc-ball);
 }
 
-.triangle1 {
+@keyframes show{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}
 
+@media screen and (max-width: 1300px) {
+  .gyMembers {
+    flex-direction: column;
+    gap: 2rem; /* Ajusta según sea necesario */
+  }
+
+  .ball {
+    width: 15vw; /* Ajusta según sea necesario */
+    height: 15vw; /* Ajusta según sea necesario */
+  }
+  .ball1 {
+	top: 20%;
+	left: 15%;
+}
+
+.ball2 {
+	top: 60%;
+	left: 28%;
+}
+
+.ball3 {
+	top: 80%;
+	left: 50%;
+}
+
+.ball4 {
+
+
+	top: 20%;
+	left: 70%;
+}
+.aboutUsPage{
+	margin-top: 5rem;
+}
 }

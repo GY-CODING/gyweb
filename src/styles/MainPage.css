@@ -8,8 +8,7 @@
     align-content: center;
 
     width: 100%;
-    height: 110vh;
-
+    height: 100vh;
     gap: 4rem;
 }
 
@@ -154,6 +153,12 @@
     }
 }
 
+@media screen and (max-width: 800px) {
+    .introduction{
+        font-size: 30px;
+    }
+}
+
 @media screen and (orientation: portrait){
     .glassSquare1, .glassSquare2, .glassSquare3{
         display: none;
@@ -169,5 +174,9 @@
     }
     .mainPage {
         gap: 1rem;
+    }
+
+    .introduction {
+        font-size: 40px;
     }
 }

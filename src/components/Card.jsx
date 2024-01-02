@@ -20,13 +20,13 @@ export function Card(props) {
 		<>
 			<div id={props.identifier} className="tiltCard">
 				<div className="cardContent">
-					<img src={props.img} alt="photo" className="cardPhoto"></img>
+					<img src={props.img} alt="photo" className="cardPhoto" draggable="false"></img>
 					<h1 className="cardTitle">{props.name}</h1>
 					<p className="cardDesc">{props.desc}</p>
 					<div className="cardMedia">
-						<a href={props.github}><img src={github} alt="github" className="mediaLogo github" /></a>
-						<a href={props.linkedIn}><img src={linkedin} alt="linkedIn" className="mediaLogo linkedIn" /></a>
-						<a href={props.instagram}><img src={instagram} alt="instagram" className="mediaLogo instagram" /></a>
+						<a href={props.github}><img src={github} alt="github" className="mediaLogo github" draggable="false"/></a>
+						<a href={props.linkedIn}><img src={linkedin} alt="linkedIn" className="mediaLogo linkedIn" draggable="false"/></a>
+						<a href={props.instagram}><img src={instagram} alt="instagram" className="mediaLogo instagram" draggable="false"/></a>
 					</div>
 				</div>
 			</div>

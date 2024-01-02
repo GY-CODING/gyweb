@@ -1,29 +1,42 @@
 .tiltCard {
 	width: 30%;
-	height: 80%;
-	box-shadow: 0 8px 32px 0 var(--card-shadow);
-	backdrop-filter: blur(100px);
-	border-radius: 10px;
-	border: 1px solid var(--card-border);
-	overflow: hidden;
+	height: 90%;
+
 	display: flex;
 	flex-direction: column;
+	flex-wrap: nowrap;
+
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+
+	box-shadow: 0 8px 32px 0 var(--card-shadow);
+	backdrop-filter: blur(100px);
+
+	border: 1px solid var(--card-border);
+	border-radius: 10px;
+	
+	overflow: hidden;
+	z-index: 2;
 }
 
 .cardContent {
 	height: 100%;
-	width: 100%;
+	width: 80%;
+
 	display: flex;
 	flex-direction: column;
-	flex-wrap: wrap;
+	flex-wrap: nowrap;
 
 	justify-content: flex-start;
 	align-items: center;
 	align-content: center;
 
-	padding-top: 50px;
-
+	padding-top: 40px;
+	padding-bottom: 40px;
 	gap: 30px;
+
+	text-align: center;
 }
 
 .cardPhoto {
@@ -37,12 +50,26 @@
 
 .cardDesc {
 	height: 40%;
+	width: 100%;
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+	justify-content: center;
+	align-items: flex-start;
+	align-content: flex-start;
+	
 	margin-top: 20px;
 
 	font-size: 13px;
+	text-overflow: ellipsis;
 }
 
 .cardMedia {
+	width: 100%;
+	height: 10%;
+
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -51,8 +78,6 @@
 	align-items: center;
 	align-content: center;
 
-	width: 100%;
-	height: 10%;
 	gap: 15px;
 
 	align-self: end;
@@ -61,6 +86,7 @@
 
 .mediaLogo {
 	height: 40px;
+	
 	opacity: 50%;
 	transition: .5s;
 }
@@ -71,4 +97,27 @@
 
 	filter: drop-shadow(0px 0px 10px var(--card-media-brightness));
 	opacity: 80%;
+}
+
+@media screen and (max-width: 1366px) {
+	.tiltCard {
+		width: 70%;
+		height: 110%;
+	}
+
+	.cardContent {
+		gap: 20px;
+	}
+
+	.cardPhoto {
+		height: 90px;
+	}
+
+	.cardTitle {
+		font-size: 20px;
+	}
+
+	.mediaLogo {
+		height: 20px;
+	}
 }

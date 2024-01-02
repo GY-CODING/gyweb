@@ -60,6 +60,9 @@
 	--gy-magenta-dark: #0d011b;
 	--gy-gradient: linear-gradient(45deg, var(--gy-purple), var(--gy-magenta));
 	--gy-bg-gradient: linear-gradient(0deg, var(--gy-purple-dark), var(--gy-magenta-dark));
+	--gy-bg-gradient-reverse: linear-gradient(0deg, var(--gy-magenta-dark),var(--gy-purple-dark));
+	--gy-bg-gradient-footer: linear-gradient(0deg, #09000a, #0d011b);
+
 
 	--introduction-shadow: #0000008e;
 
@@ -84,6 +87,17 @@
 	--card-border: #ffffff42;
 	--card-shadow: #0000025e;
 	--card-media-brightness: #ffffff42;
+
+	--card-gfigueras-ball-light: #db34d5;
+	--card-gfigueras-ball-mid: #a3238b;
+	--card-gfigueras-ball-dark: #5e1654;
+
+	--card-toxyc-ball-light: #e6bd06;
+	--card-toxyc-ball-mid: #af9003;
+	--card-toxyc-ball-dark: #d3b11c;
+
+	--card-gfigueras-ball: radial-gradient(circle at 30% 40%, var(--card-gfigueras-ball-light), var(--card-gfigueras-ball-mid) 70%, var(--card-gfigueras-ball-dark));
+	--card-toxyc-ball: radial-gradient(circle at 30% 40%, var(--card-toxyc-ball-light), var(--card-toxyc-ball-mid) 70%, var(--card-toxyc-ball-dark));
 
 	--main-text: #ffffffde;
 	--main-text-brightness: #ffffff6c;
@@ -111,7 +125,10 @@
 * {
 	margin: 0;
 	padding: 0;
+}
 
+#root{
+	width: 100vw;
 }
 
 *::selection {
@@ -125,7 +142,7 @@ html {
 
 body {
 	width: 100vw;
-	height: 200vh;
+	height: 220vh;
 
 	display: flex;
 	flex-direction: column;

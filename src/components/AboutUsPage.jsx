@@ -9,16 +9,16 @@ export function AboutUsPage() {
     const TITLE                 = "ABOUT US";
 
     const GFIGUERAS_NAME        = "Guillermo Figueras";
-    const GFIGUERAS_DESC        = "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA";
+    const GFIGUERAS_DESC        = "AAAAAAAAAAAAAAA AAAAA AAAAAAAAAAAAAA AAAAA AAAAAAAAAAAAAA AAAAA";
     const GFIGUERAS_GITHUB      = "https://github.com/GFigueras03";
-    const GFIGUERAS_LINKEDIN    = "https://www.linkedin.com/in/guillermo-figueras-jiménez-b2997a240/";
+    const GFIGUERAS_LINKEDIN    = "https://www.linkedin.com/in/gfigueras/";
     const GFIGUERAS_INSTAGRAM   = "https://www.instagram.com/guiillee_.03/";
     
-    const TOXYC_NAME        = "Iván Vicente";
-    const TOXYC_DESC        = "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA";
-    const TOXYC_GITHUB      = "https://github.com/srtoxyc";
-    const TOXYC_LINKEDIN    = "https://www.linkedin.com/in/srtoxyc/";
-    const TOXYC_INSTAGRAM   = "https://www.instagram.com/srtoxyc/";
+    const TOXYC_NAME            = "Iván Vicente";
+    const TOXYC_DESC            = "AAAAAAAAAAAAAAA AAAAA AAAAAAAAAAAAAA AAAAA AAAAAAAAAAAAAA AAAAA";
+    const TOXYC_GITHUB          = "https://github.com/srtoxyc";
+    const TOXYC_LINKEDIN        = "https://www.linkedin.com/in/srtoxyc/";
+    const TOXYC_INSTAGRAM       = "https://www.instagram.com/srtoxyc/";
 
     return (
         <div id="aboutUs" className="aboutUsPage">
