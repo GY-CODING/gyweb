@@ -17,8 +17,8 @@ export function Footer() {
         <div className="footer">
             <img class="footerLogo" src={logo} alt="gyLogo" />
             <div className="footerMedia">
-				<a href={GITHUB_URL}><img src={github} alt="github" className="footerMediaLogo github" draggable="false"/></a>
-				<a href={TWITTER_URL}><img src={twitter} alt="twitter" className="footerMediaLogo twitter" draggable="false"/></a>
+				<a href={GITHUB_URL} rel="noreferrer noopener" target="_blank"><img src={github} alt="github" className="footerMediaLogo github" draggable="false"/></a>
+				<a href={TWITTER_URL} rel="noreferrer noopener" target="_blank"><img src={twitter} alt="twitter" className="footerMediaLogo twitter" draggable="false"/></a>
 				<a href="#"><img src={instagram} alt="instagram" className="footerMediaLogo instagram" draggable="false"/></a>
 			</div>
             <h5 class="footerSignature">{GY_CODING_SIGNATURE}</h5>

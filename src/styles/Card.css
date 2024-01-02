@@ -64,6 +64,9 @@
 
 	font-size: 13px;
 	text-overflow: ellipsis;
+	letter-spacing: 1.5px;
+	line-height: 15px;
+	
 }
 
 .cardMedia {

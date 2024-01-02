@@ -9,13 +9,13 @@ export function AboutUsPage() {
     const TITLE                 = "ABOUT US";
 
     const GFIGUERAS_NAME        = "Guillermo Figueras";
-    const GFIGUERAS_DESC        = "AAAAAAAAAAAAAAA AAAAA AAAAAAAAAAAAAA AAAAA AAAAAAAAAAAAAA AAAAA";
+    const GFIGUERAS_DESC        = "Entusiasta de la tecnología que desde su infancia ha desarrollado una pasión por el hardware y el ensamblaje de ordenadores. Como técnico en sistemas microinformáticos y redes, encuentra satisfacción resolviendo desafíos tecnológicos. Actualmente, se encuentra en su segundo año de estudios en desarrollo de aplicaciones multiplataforma y cuenta con experiencia en Java/Kotlin, SQL y CSS. Su dedicación y conocimientos en el mundo de la tecnología son la base para aportar soluciones innovadoras a cualquier proyecto.";
     const GFIGUERAS_GITHUB      = "https://github.com/GFigueras03";
     const GFIGUERAS_LINKEDIN    = "https://www.linkedin.com/in/gfigueras/";
     const GFIGUERAS_INSTAGRAM   = "https://www.instagram.com/guiillee_.03/";
     
     const TOXYC_NAME            = "Iván Vicente";
-    const TOXYC_DESC            = "AAAAAAAAAAAAAAA AAAAA AAAAAAAAAAAAAA AAAAA AAAAAAAAAAAAAA AAAAA";
+    const TOXYC_DESC            = "Apasionado del desarrollo de 21 años. <br /> Desde la adolescencia, me he sumergido en el fascinante mundo de la programación, enfocándome especialmente en el desarrollo de videojuegos y el desarrollo back-end. Mi interés se extiende al desarrollo full-stack, y cuento con experiencia en Java/Kotlin, JavaScript y SQL. Además, poseo un nivel de inglés casi-nativo (C1). <br /> Estoy emocionado por aportar mi pasión y habilidades a proyectos innovadores.";
     const TOXYC_GITHUB          = "https://github.com/srtoxyc";
     const TOXYC_LINKEDIN        = "https://www.linkedin.com/in/srtoxyc/";
     const TOXYC_INSTAGRAM       = "https://www.instagram.com/srtoxyc/";
