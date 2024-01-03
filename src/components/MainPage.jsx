@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 
 import '../styles/MainPage.css';
 import form from "../assets/img/form.webp";
@@ -23,7 +23,7 @@ const Parallax = () => {
 };
 
 export function MainPage() {
-    const MSG_WELCOME = `WELCOME TO <br /> <span>GY</span>CODING`
+    const MSG_WELCOME = "WELCOME TO <br /> <span>GY</span>CODING";
 
     return (
         <div id="main" className="mainPage">

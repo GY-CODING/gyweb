@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import '../styles/AboutUsPage.css';
 import { Card } from './Card';
 
@@ -27,7 +27,7 @@ export function AboutUsPage() {
             </header>
 
             <div className="gyMembers">
-                <Card 
+                <Card
                     identifier="gfigueras"
                     img={gfiguerasIMG}
                     name={GFIGUERAS_NAME}

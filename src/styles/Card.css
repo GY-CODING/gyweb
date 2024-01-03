@@ -18,6 +18,7 @@
 	
 	overflow: hidden;
 	z-index: 2;
+
 }
 
 .cardContent {
@@ -88,7 +89,7 @@
 }
 
 .mediaLogo {
-	height: 40px;
+	font-size: 40px;
 	
 	opacity: 50%;
 	transition: .5s;

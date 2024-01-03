@@ -28,19 +28,19 @@ export function ProjectsPage() {
                 </Glow>
                 <Glow>
                     <div className="projectCard mapsCard">
-                    <img src={maps_logo} className="mapsLogo projectLogo" draggable="false"/>
+                        <img src={maps_logo} className="mapsLogo projectLogo" draggable="false"/>
                         <img src={maps_card} className="mapsBG projectBG" alt="fotg" draggable="false"/>
                     </div>
                 </Glow>
                 <Glow>
                     <div className="projectCard charactersCard">
-                    <img src={characters_logo} className="charactersLogo projectLogo" draggable="false"/>
+                        <img src={characters_logo} className="charactersLogo projectLogo" draggable="false"/>
                         <img src={characters_card} className="charactersBG projectBG" alt="fotg" draggable="false"/>
                     </div>
                 </Glow>
                 <Glow>
                     <div className="projectCard isaacCard">
-                    <img src={fotg_logo} className="isaacLogo projectLogo" draggable="false"/>
+                        <img src={fotg_logo} className="isaacLogo projectLogo" draggable="false"/>
                         <img src={fotg_card} className="isaacBG projectBG" alt="fotg" draggable="false"/>
                     </div>
                 </Glow>

@@ -15,6 +15,7 @@
     "@codaworks/react-glow": "^1.0.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-icons": "^4.12.0",
     "vanilla-tilt": "^1.8.1"
   },
   "devDependencies": {

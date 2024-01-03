@@ -13,15 +13,11 @@
     align-content: center;
 
     top: 0;
-    /* padding-top: 2%; */
-
-    z-index: 10;
-
-    user-select: none;
 
     backdrop-filter: blur(20px);
 
-
+    z-index: 10;
+    user-select: none;
 }
 
 .leftSide {

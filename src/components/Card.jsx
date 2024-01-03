@@ -2,9 +2,7 @@ import React, { useEffect } from 'react';
 import VanillaTilt from 'vanilla-tilt';
 import '../styles/Card.css'
 
-import github from '../assets/img/media-logos/github-logo.svg';
-import linkedin from '../assets/img/media-logos/linkedin-logo.svg';
-import instagram from '../assets/img/media-logos/instagram-logo.svg';
+import { FaGithubSquare, FaInstagramSquare, FaLinkedin } from "react-icons/fa";
 
 export function Card(props) {
 	useEffect(() => {
@@ -24,9 +22,9 @@ export function Card(props) {
 					<h1 className="cardTitle">{props.name}</h1>
 					<p className="cardDesc" dangerouslySetInnerHTML={{ __html: props.desc }} />
 					<div className="cardMedia">
-						<a href={props.github} rel="noreferrer noopener" target="_blank"><img src={github} alt="github" className="mediaLogo github" draggable="false"/></a>
-						<a href={props.linkedIn} rel="noreferrer noopener" target="_blank"><img src={linkedin} alt="linkedIn" className="mediaLogo linkedIn" draggable="false"/></a>
-						<a href={props.instagram} rel="noreferrer noopener" target="_blank"><img src={instagram} alt="instagram" className="mediaLogo instagram" draggable="false"/></a>
+						<a href={props.github} rel="noreferrer noopener" target="_blank"><FaGithubSquare className="mediaLogo github"/></a>
+						<a href={props.linkedIn} rel="noreferrer noopener" target="_blank"><FaLinkedin className="mediaLogo linkedIn"/></a>
+						<a href={props.instagram} rel="noreferrer noopener" target="_blank"><FaInstagramSquare className="mediaLogo instagram"/></a>
 					</div>
 				</div>
 			</div>

@@ -2,9 +2,9 @@ import '../styles/Navbar.css'
 import logo from '../assets/img/logos/gy-logo.webp'
 
 export function Navbar() {
-    const TITLE             = "GyCODING"
-    const LIST_PROJECTS     = "PROJECTS"
-    const LIST_ABOUT_US     = "ABOUT US"
+    const TITLE             = "GyCODING";
+    const LIST_PROJECTS     = "PROJECTS";
+    const LIST_ABOUT_US     = "ABOUT US";
     
     return (
         <div className="navbar">

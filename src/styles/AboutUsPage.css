@@ -12,19 +12,10 @@
 	align-items: center;
 	align-content: center;
 
-	padding-top: 60px;
+	padding-top: 70px;
 
 	background: var(--gy-bg-gradient-reverse);
-
-	view-timeline-name: --card;
-	view-timeline-axis: block;
-
-	animation-timeline: --card;
-	animation-name: show;
-
-	animation-range: entry 0% cover 50% ;
 }
-
 
 .aboutUsTitle {
 	width: 100%;
@@ -41,6 +32,14 @@
 	margin-bottom: 0px;
 
 	font-size: 25px;
+
+	view-timeline-name: --card;
+	view-timeline-axis: block;
+
+	animation-timeline: --card;
+	animation-name: showAbout;
+
+	animation-range: entry -10% cover 50%;
 }
 
 .gyMembers {
@@ -56,6 +55,14 @@
 	align-content: center;
 
 	gap: 5rem;
+
+	view-timeline-name: --card;
+	view-timeline-axis: block;
+
+	animation-timeline: --card;
+	animation-name: showAbout;
+
+	animation-range: entry -10% cover 50%;
 }
 
 .ball {
@@ -106,12 +113,15 @@
 	background: var(--card-toxyc-ball);
 }
 
-@keyframes show{
+@keyframes showAbout{
 	from{
-		opacity: 0;
+		/* opacity: 0; */
+		transform: scale(0);
 	}
 	to{
-		opacity: 1;
+		/* opacity: 1; */
+		transform: scale(1);
+
 	}
 }
 
