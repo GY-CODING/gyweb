@@ -125,6 +125,7 @@
 	}
 }
 
+
 @media screen and (max-width: 1300px) {
   .gyMembers {
     flex-direction: column;
@@ -146,8 +147,8 @@
 }
 
 .ball3 {
-	top: 80%;
-	left: 50%;
+	top: 60%;
+	left: 60%;
 }
 
 .ball4 {
@@ -160,3 +161,4 @@
 	margin-top: 5rem;
 }
 }
+

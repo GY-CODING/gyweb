@@ -7,14 +7,14 @@
 	flex-wrap: nowrap;
 
 	justify-content: flex-start;
-	align-items: center; 
+	align-items: center;
 	align-content: center;
 
 	padding-top: 80px;
 	gap: 40px;
 
 	background-color: transparent;
-	
+
 	view-timeline-name: --card;
 	view-timeline-axis: block;
 
@@ -31,7 +31,7 @@
 .projectsTitle {
 	width: 100%;
 	height: 10%;
-	
+
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
@@ -47,7 +47,7 @@
 	display: grid;
 	grid-template-columns: repeat(4, minmax(250px, 1fr));
 	grid-gap: 1.8rem;
-	
+
 }
 
 .projectCard {
@@ -92,7 +92,7 @@
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
-	
+
 	justify-content: center;
 	align-items: center;
 	align-content: center;
@@ -102,13 +102,13 @@
 
 .projectLogo {
 	position: absolute;
-	
+
 	width: 100px;
 	height: 100px;
-	
+
 	opacity: 0%;
 	filter: drop-shadow(0px 0px 10px #000000) drop-shadow(0px 0px 10px var(--projects-logo-shadow));
-	
+
 	z-index: 2;
 	pointer-events: none;
 
@@ -136,17 +136,18 @@
 	cursor: pointer;
 }
 
-.glow{
+.glow {
 	margin: auto;
 	width: 100%;
 }
 
-@keyframes show{
-	from{
+@keyframes show {
+	from {
 		opacity: 0;
 		transform: scale(0.8);
 	}
-	to{
+
+	to {
 		opacity: 1;
 		transform: scale(1);
 
@@ -160,8 +161,9 @@
 		display: grid;
 		grid-template-columns: repeat(1, minmax(0px, 1fr));
 	}
-	.projects{
-		height:100vh ;
+
+	.projects {
+		height: 100vh;
 	}
 
 	.projectsList {
@@ -179,7 +181,7 @@
 	}
 }
 
-@media screen and (max-width: 1360px) and (max-height: 760px)  {
+@media screen and (max-width: 1360px) and (max-height: 760px) {
 	.projectCard {
 		width: 100%;
 		height: 130px;
@@ -189,18 +191,25 @@
 		display: grid;
 		grid-template-columns: repeat(1, minmax(0px, 1fr));
 	}
-	.projects{
-		height:100vh ;
+
+	.projects {
+		height: 100vh;
 	}
 
 	.projectsList {
 		width: 55%;
 	}
 
-	.projectBG{
+	.projectBG {
 		width: 100%;
 		object-fit: cover;
-
-
 	}
+
+}
+
+@media screen and (max-width: 750px) {
+	.projectLogo{
+		width: 60px;
+		height: 60px;
 	}
+}
