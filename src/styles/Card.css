@@ -43,6 +43,7 @@
 .cardPhoto {
 	height: 150px;
 	border-radius: 50%;
+	background-color: white;
 }
 
 .cardTitle {

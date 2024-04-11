@@ -2,7 +2,9 @@ import React, { useEffect } from 'react';
 import VanillaTilt from 'vanilla-tilt';
 import '../styles/Card.css'
 
-import { FaGithubSquare, FaInstagramSquare, FaLinkedin } from "react-icons/fa";
+import { FaGithubSquare,  FaLinkedin } from "react-icons/fa";
+import { MdContactPage } from "react-icons/md";
+
 
 export function Card(props) {
 	useEffect(() => {
@@ -10,7 +12,7 @@ export function Card(props) {
 			max: 3,
 			speed: 150,
 			glare: true,
-			'max-glare': 0.1,
+			// 'max-glare': 1,
 		});
 	}, []);
 
@@ -24,7 +26,7 @@ export function Card(props) {
 					<div className="cardMedia">
 						<a href={props.github} rel="noreferrer noopener" target="_blank"><FaGithubSquare className="mediaLogo github"/></a>
 						<a href={props.linkedIn} rel="noreferrer noopener" target="_blank"><FaLinkedin className="mediaLogo linkedIn"/></a>
-						<a href={props.instagram} rel="noreferrer noopener" target="_blank"><FaInstagramSquare className="mediaLogo instagram"/></a>
+						<a href={props.instagram} rel="noreferrer noopener" target="_blank"><MdContactPage className="mediaLogo instagram"/></a>
 					</div>
 				</div>
 			</div>
