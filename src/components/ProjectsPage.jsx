@@ -3,6 +3,8 @@ import { GlowCapture, Glow } from "@codaworks/react-glow"
 import fotg_card from "../assets/img/projects-bg/fotg_card_bg.webp"
 import maps_card from "../assets/img/projects-bg/maps_card_bg.webp"
 import characters_card from "../assets/img/projects-bg/characters_card_bg.webp"
+import LeavesAndShadows from '../assets/img/logos/leaves_and_shadows.png'
+import leavesAndShadowsCard from '../assets/img/projects-bg/game_image.png'
 
 import fotg_logo from "../assets/img/logos/fotg_logo.webp"
 import maps_logo from "../assets/img/logos/gfigueras_logo.webp"
@@ -11,6 +13,10 @@ import characters_logo from "../assets/img/logos/toxyc_logo.webp"
 import '../styles/ProjectsPage.css'
 
 export function ProjectsPage() {
+
+    function openLeavesAndShadows(){
+        window.open("https://leavesandshadows.gycoding.com/")
+    }
     const TITLE = "PROJECTS";
 
     return (
@@ -39,9 +45,9 @@ export function ProjectsPage() {
                     </div>
                 </Glow>
                 <Glow>
-                    <div className="projectCard isaacCard">
-                        <img src={fotg_logo} className="isaacLogo projectLogo" draggable="false"/>
-                        <img src={fotg_card} className="isaacBG projectBG" alt="fotg" draggable="false"/>
+                    <div onClick={openLeavesAndShadows} className="projectCard isaacCard">
+                        <img src={LeavesAndShadows} className="isaacLogo projectLogo" draggable="false"/>
+                        <img src={leavesAndShadowsCard} className="isaacBG projectBG" alt="fotg" draggable="false"/>
                     </div>
                 </Glow>
             </div>
