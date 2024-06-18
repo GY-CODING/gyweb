@@ -1,11 +1,11 @@
-# GYCODING website
+# GYCODING Website
 
 [![developer](https://img.shields.io/badge/developed-GYCODING-B833FF?style=for-the-badge)](https://github.com/GY-CODING)
 [![website](https://img.shields.io/badge/Web-gycoding-magenta?style=for-the-badge)](https://gycoding.com)
 
 ## Introduction
 
-This is the **[GYCODING](https://gycoding.com)** official website where verything related to GYCODING will be displayed.
+This is the **GYCODING**'s official website where verything related to GYCODING will be displayed.
 
 <br>
 
