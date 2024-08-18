@@ -13,10 +13,6 @@ import characters_logo from "../assets/img/logos/toxyc_logo.webp"
 import '../styles/ProjectsPage.css'
 
 export function ProjectsPage() {
-
-    function openLeavesAndShadows(){
-        window.open("https://leavesandshadows.gycoding.com/")
-    }
     const TITLE = "PROJECTS";
 
     return (
@@ -45,7 +41,7 @@ export function ProjectsPage() {
                     </div>
                 </Glow>
                 <Glow>
-                    <div onClick={openLeavesAndShadows} className="projectCard isaacCard">
+                    <div className="projectCard isaacCard">
                         <img src={LeavesAndShadows} className="isaacLogo projectLogo" draggable="false"/>
                         <img src={leavesAndShadowsCard} className="isaacBG projectBG" alt="fotg" draggable="false"/>
                     </div>

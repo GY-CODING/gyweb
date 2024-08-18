@@ -10,13 +10,13 @@ export function AboutUsPage() {
 
     const GFIGUERAS_NAME        = "Guillermo Figueras";
     const GFIGUERAS_DESC        = "Entusiasta de la tecnología que desde su infancia ha desarrollado una pasión por el hardware y el ensamblaje de ordenadores. Como técnico en sistemas microinformáticos y redes, encuentra satisfacción resolviendo desafíos tecnológicos.<br /><br />Actualmente, se encuentra en su segundo año de estudios en desarrollo de aplicaciones multiplataforma y cuenta con experiencia en Java/Kotlin, SQL y CSS.<br />Su dedicación y conocimientos en el mundo de la tecnología son la base para aportar soluciones innovadoras a cualquier proyecto.";
-    const GFIGUERAS_GITHUB      = "https://github.com/GFigueras03";
+    const GFIGUERAS_GITHUB      = "https://github.com/gy-gfigueras";
     const GFIGUERAS_LINKEDIN    = "https://www.linkedin.com/in/gfigueras/";
     const GFIGUERAS_PORTFOLIO   = "https://gfigueras.com";
     
     const TOXYC_NAME            = "Iván Vicente";
     const TOXYC_DESC            = "Apasionado del desarrollo de 21 años.<br />Desde la adolescencia, se ha sumergido en el fascinante mundo de la programación, enfocándose especialmente en el desarrollo de videojuegos y el desarrollo back-end.<br /><br />Su interés se extiende al desarrollo full-stack, y cuenta con experiencia en Java/Kotlin, JavaScript y SQL. Además, posee un nivel de inglés casi-nativo (C1).<br />Su pasión y habilidades suponen una importante adición a proyectos innovadores.";
-    const TOXYC_GITHUB          = "https://github.com/srtoxyc";
+    const TOXYC_GITHUB          = "https://github.com/gy-toxyc";
     const TOXYC_LINKEDIN        = "https://www.linkedin.com/in/srtoxyc/";
     const TOXYC_PORTFOLIO       = "https://toxyc.dev";
 

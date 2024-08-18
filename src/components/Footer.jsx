@@ -12,7 +12,7 @@ export function Footer() {
     const TWITTER_URL           = "https://twitter.com/GYCODING";
     const MAIL_URL              = "mailto:gycoding05@gmail.com";
 
-    const GY_CODING_SIGNATURE   = "@GY CODING 2024";
+    const GY_CODING_SIGNATURE   = "GYCODING 2024";
 
     return (
         <div className="footer">
