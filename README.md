@@ -1,3 +1,8 @@
+> [!CAUTION]
+> This website is currently deprecated.
+
+<br>
+
 # GYCODING Website
 
 [![developer](https://img.shields.io/badge/developed-GYCODING-B833FF?style=for-the-badge)](https://github.com/GY-CODING)
